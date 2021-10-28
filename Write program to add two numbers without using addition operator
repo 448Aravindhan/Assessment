@@ -1,0 +1,25 @@
+a=int(input("Enter the number for a: "))
+b=int(input("Enter the number for b: "))
+def add(a,b):  
+    while(b != 0):
+        c=a&b
+        a=a^b
+        b=c<<1
+    return a
+print("Sum of two numbers",add(a,b))
+
+#a=take a input in user(20) 
+#b=take a input in user(4) 
+#def add(a,b) is a function
+#if b==0, return a
+#while(b != 0):
+#c=a&b
+#c=20&4=4
+#a=a^b
+#a=20^4=16
+#b=c<<1
+#<<=Bitwise left shift
+#b=4<<1=8
+#a=16   b=8
+#add(a, b) is a function call. It is call def add(a,b). 
+#sum of two numbers 24
