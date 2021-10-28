@@ -1,0 +1,29 @@
+n = int(input("Enter any number: "))
+sum = 0
+for i in range(1, n):
+    if(n % i == 0):
+        sum = sum + i
+if (sum == n):
+    print("The number is a Perfect number!")
+else:
+    print("The number is not a Perfect number!")
+
+#perfect number:A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. 
+#n=take a input in user(6) 
+#initial sum=0
+#for I in range (1, n) means start 1& end with n(6) 
+#if(n%i==0) 
+#6%1==0
+#sum=sum+i
+#sum=0+1=1
+#6%2==0
+#sum=sum+i
+#sum=1+2=3
+#6%3==0
+#sum=sum+i
+#sum=3+3=6
+#6%4 !=0
+#6%5 ! =0
+#if (sum==n) 
+#if 6==6
+#so the number is a perfect number
