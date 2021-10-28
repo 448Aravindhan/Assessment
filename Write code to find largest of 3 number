@@ -1,0 +1,23 @@
+n1 = int(input("Enter the number 1: "))
+n2 = int(input("Enter the number 2 : "))
+n3 = int(input("Enter the number 3 : "))
+if n1 > n2 and n1 > n3: 
+    print('largest number of three number is=',n1)
+elif n2>n1 and n2 > n3:
+	print('largest number of three number is=',n2)
+else:
+	print('largest number of three number is=',n3)
+
+#n1=take first input in user(100) 
+#n2=take second input in user(200) 
+#n3=take third input in user(300) 
+#if 100>200 and 100>300:
+#0 and 0=0
+#the condition is false
+#so 100 is not largest number
+#elif 200>100 and 200>300
+#1and 0=0
+#second condition false
+#200 is not largest number
+#else:above two conditions are fail else part executed
+#so 300 is the largest number
